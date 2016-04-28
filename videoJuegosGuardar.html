@@ -1,0 +1,83 @@
+<html>
+    <head><title>Guardar Video Juegos</title></head>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+    <meta charset="utf-8"/>
+    
+    <body>
+        <!-- HEADER -->
+        <header>
+            <h1>Killari</h1>
+        </header>
+        
+        <!-- MENÚ -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="usuariosRegistro.html">Usuarios</a></li>
+                <li><a href="consolas.html">Consolas</a></li>
+                <li><a href="#videoJuegos.html" class="active">Video Juegos</a></li>
+                <li><a href="reportes.html">Reportes</a></li>
+                <li><a href="#Contactenos">Contáctenos</a></li>
+                <li style="float:right"><a href="#salir">Salir</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <section id="contenido">
+         <fieldset>
+                <legend><h2>Registrar Usuario</h2></legend>  
+                
+                <form>
+                    <table border="0">
+                        <tr>
+                            <td><label for="nombre">Nombre:</label></td>
+                            <td><input type="text" id="nombre"></td>
+                        </tr>                   
+                        <tr>
+                            <td><label for="consola">Apellidos:</label></td>
+                            <td>
+                                <select id="consola">
+                                    <option value="1" selected>Play Station 4</option>
+                                    <option value="2">Play Station 3</option>
+                                    <option value="3">Xbox One</option>
+                                    <option value="4">Xbox 360</option>
+                                    <option value="5">Nintendo wii U</option>
+                                    <option value="6">Nintendo wii</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="valor">Valor:</label></td>
+                            <td><input type="text" id="valor"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telefonoFijo">Teléfono Fijo:</label></td>
+                            <td><input type="text" id="telefonoFijo"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="estadoJuego">Estado:</label></td>
+                            <td>
+                                <select id="estadoJuego">
+                                    <option value="1"  selected>Nuevo</option>
+                                    <option value="2" >Usado</option>
+                                </select>
+                            </td>
+                        </tr>
+                        
+                        <tr>                            
+                            <td colspan="2" align="right"><input type="submit" value="Registrar"></td>                            
+                        </tr>
+                        
+                    </table>    
+            </form>
+            </fieldset>
+        </section>
+
+        <!-- PIE DE PÁGINA -->
+        <footer>
+            <p>Humberto Echeverry Arce - 82201619950</p>
+        </footer>
+        
+    </body>
+
+</html>
