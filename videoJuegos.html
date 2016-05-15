@@ -1,36 +1,157 @@
 <html>
     <head><title>Video Juegos</title></head>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+    <!--<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" />
+    
     <meta charset="utf-8"/>
     
     <body>
-        <!-- HEADER -->
-        <header>
-            <h1>Killari</h1>
-        </header>
+        <!-- HEADER 
+        <div class="page-header">            
+            <center><h1>Killari <small> Todo en Video Juegos</small></h1></center>
+        </div> -->
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Killari</h1>      
+                <p>Todo en video Juegos.</p>
+            </div>
+        
+       
+              
         
         <!-- MENÚ -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="usuariosRegistro.html">Usuarios</a></li>
-                <li><a href="consolas.html">Consolas</a></li>
-                <li><a href="#videoJuegos.html" class="active">Video Juegos</a></li>
-                <li><a href="reportes.html">Reportes</a></li>
-                <li><a href="#Contactenos">Contáctenos</a></li>
-                <li style="float:right"><a href="#salir">Salir</a></li>
-            </ul>
-        </nav>
+        <ul class="nav nav-pills">
+            <li role="presentation" ><a href="index.html">Inicio</a></li>
+            <li role="presentation"><a href="usuariosRegistro.html">Registrar Usuarios</a></li>
+            <li role="presentation"><a href="consolas.html">Consolas</a></li>
+            <li role="presentation" class="active"><a href="#">Video Juegos</a></li>
+            <li role="presentation"><a href="videoJuegosRegistro.html">Registrar Video Juegos</a></li>
+            <li role="presentation"><a href="reportes.html">Reportes</a></li>
+            <li role="presentation"><a href="#">Salir</a></li>            
+        </ul>
+        
+        <hr>
+        
 
         <!-- CONTENIDO -->
-        <section id="contenido">
-         <img src="img/construccion.jpg" width="100%" height="65%">
-        </section>
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Video Juegos Disponibles</div>
+                        <div class="panel-body">
+                            
+                            <table class="table table-bordered table-hover">
+                                <tr>
+                                    <td><img src="img/gta.jpg" class="img-rounded img-thumbnail" alt="Assassins Creed"></td>
+                                    <td>
+                                        <h2>GTA V</h2>
+                                        <p>Consola: Play Station 4</p>
+                                        <p>Precio: 85.000</p>
+                                        <p>Estado: Usado</p>
+                                        <p>Contenido Extra: No</p>
+                                        <p>Unidades Disponibles: 2</p>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><img src="img/resident.jpg" class="img-rounded img-thumbnail"></td>
+                                    <td>
+                                        <h2>Resident Evil 7</h2>
+                                        <p>Consola: Xbox One</p>
+                                        <p>Precio: 160.000</p>
+                                        <p>Estado: Nuevo</p>
+                                        <p>Contenido Extra: Si</p>
+                                        <p>Unidades Disponibles: 5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/pes.jpg" class="img-rounded img-thumbnail"></td>
+                                    <td class="danger">
+                                        <h2>Pro Evolution Soccer 2016</h2>
+                                        <p>Consola: Play Station 4</p>
+                                        <p>Precio: 175.000</p>
+                                        <p>Estado: Nuevo</p>
+                                        <p>Contenido Extra: No</p>
+                                        <p>Unidades Disponibles: 0 - Agotado</p>                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/nfs.jpg" class="img-rounded img-thumbnail"></td>
+                                    <td>
+                                        <h2>Need For Speed</h2>
+                                        <p>Consola: Xbox One</p>
+                                        <p>Precio: 50.000</p>
+                                        <p>Estado: Usado</p>
+                                        <p>Contenido Extra: Si</p>
+                                        <p>Unidades Disponibles: 1</p>
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    </td>
+                                    
+                                </tr>
+                            </table>
+                        
+                        </div>
+                    
+                </div>
+            </div>          
+        </div>
 
         <!-- PIE DE PÁGINA -->
-        <footer>
-            <p>Humberto Echeverry Arce - 82201619950</p>
-        </footer>
+        
+                
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                    <p><center>Humberto Echeverry Arce - 82201619950</center></p>
+                    </div>
+                        
+                    
+                </div>
+            </div>          
+        </div>
+        </div>
+        
+        
+        <!--    Importamos el jquery y bootstrap  -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         
     </body>
 

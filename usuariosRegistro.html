@@ -1,79 +1,105 @@
 <html>
     <head><title>Registrar Usuario</title></head>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+    <!--<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" />
+    
     <meta charset="utf-8"/>
     
     <body>
-        <!-- HEADER -->
-        <header>
-            <h1>Killari</h1>
-        </header>
+        <!-- HEADER 
+        <div class="page-header">            
+            <center><h1>Killari <small> Todo en Video Juegos</small></h1></center>
+        </div> -->
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Killari</h1>      
+                <p>Todo en video Juegos.</p>
+            </div>
+        
+       
+              
         
         <!-- MENÚ -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a class="active"  href="#usuarios">Usuarios</a></li>
-                <li><a href="consolas.html">Consolas</a></li>
-                <li><a href="videoJuegos.html">Video Juegos</a></li>
-                <li><a href="reportes.html">Reportes</a></li>
-                <li><a href="#Contactenos">Contáctenos</a></li>
-                <li style="float:right"><a href="#salir">Salir</a></li>
-            </ul>
-        </nav>
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="index.html">Inicio</a></li>
+            <li role="presentation" class="active"><a href="#">Registrar Usuarios</a></li>
+            <li role="presentation"><a href="consolas.html">Consolas</a></li>
+            <li role="presentation"><a href="videoJuegos.html">Video Juegos</a></li>
+            <li role="presentation"><a href="videoJuegosRegistro.html">Registrar Video Juegos</a></li>
+            <li role="presentation"><a href="reportes.html">Reportes</a></li>
+            <li role="presentation"><a href="#">Salir</a></li>            
+        </ul>
+        
+        <hr>
+        
 
         <!-- CONTENIDO -->
-        <section id="contenido">
-         
-            <fieldset>
-                <legend><h2>Registrar Usuario</h2></legend>  
-                
-                <form>
-                    <table border="0">
-                        <tr>
-                            <td><label for="nombre">Nombre:</label></td>
-                            <td><input type="text" id="nombre"></td>
-                        </tr>                   
-                        <tr>
-                            <td><label for="apellios">Apellidos:</label></td>
-                            <td><input type="text" id="apellidos"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="documentoIdentidad">Documento de Identidad:</label></td>
-                            <td><input type="text" id="documentoIdentidad"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="telefonoFijo">Teléfono Fijo:</label></td>
-                            <td><input type="text" id="telefonoFijo"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="celular">celular:</label></td>
-                            <td><input type="text" id="celular"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="email">Email:</label></td>
-                            <td><input type="email" id="email"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="fechaNacimiento">Fecha de Nacimiento:</label></td>
-                            <td><input type="date" id="fechaNacimiento"></td>
-                        </tr>
-                        <tr>                            
-                            <td colspan="2" align="right"><input type="submit" value="Registrar"></td>                            
-                        </tr>
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Registrar Usuario</div>
+                        <div class="panel-body">
+                            
+                            <form action="usuarioRegistroExito.html">
+                                <div class="form-group">
+                                    <label for="nombre">Nombres:</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="apellido">Apellidos:</label>
+                                    <input type="text" class="form-control" id="apellido" placeholder="Introduce tus apellidos" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="documento">Documento de Identidad:</label>
+                                    <input type="text" class="form-control" id="documento" placeholder="Introduce tu documento de identidad" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telFijo">Teléfono Fijo:</label>
+                                    <input type="text" class="form-control" id="telFijo" placeholder="Introduce tu teléfono fijo" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="celular">Celular:</label>
+                                    <input type="text" class="form-control" id="celular" placeholder="Introduce tu número celular" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Correo Electrónico:</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Introduce tu correo electrónico" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                                    <input type="date" class="form-control" id="fechaNacimiento" required>
+                                </div>
+                                <button class="btn btn-block btn-lg">Registrar</button>
+                                
+                            </form>
                         
-                    </table>    
-            </form>
-            </fieldset>   
-            
-            
-            
-        </section>
+                        </div>
+                    
+                </div>
+            </div>          
+        </div>
 
         <!-- PIE DE PÁGINA -->
-        <footer>
-            <p>Humberto Echeverry Arce - 82201619950</p>
-        </footer>
+        
+                
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                    <p><center>Humberto Echeverry Arce - 82201619950</center></p>
+                    </div>
+                        
+                    
+                </div>
+            </div>          
+        </div>
+        </div>
+        
+        
+        <!--    Importamos el jquery y bootstrap  -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         
     </body>
 

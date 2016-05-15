@@ -1,0 +1,109 @@
+<html>
+    <head><title>Buscar Usuario</title></head>
+    <!--<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" />
+    
+    <meta charset="utf-8"/>
+    
+    <body>
+        <!-- HEADER 
+        <div class="page-header">            
+            <center><h1>Killari <small> Todo en Video Juegos</small></h1></center>
+        </div> -->
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Killari</h1>      
+                <p>Todo en video Juegos.</p>
+            </div>
+        
+       
+              
+        
+        <!-- MENÚ -->
+        <ul class="nav nav-pills">
+            <li role="presentation" ><a href="index.html">Inicio</a></li>
+            <li role="presentation"><a href="usuariosRegistro.html">Registrar Usuarios</a></li>
+            <li role="presentation"><a href="consolas.html">Consolas</a></li>
+            <li role="presentation"><a href="videoJuegos.html">Video Juegos</a></li>
+            <li role="presentation"><a href="videoJuegosRegistro.html">Registrar Video Juegos</a></li>
+            <li role="presentation" class="active"><a href="reportes.html">Reportes</a></li>
+            <li role="presentation"><a href="#">Salir</a></li>            
+        </ul>
+        
+        <hr>
+        
+
+        <!-- CONTENIDO -->
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Reporte de Usuarios Registrados</div>
+                        <div class="panel-body">
+                            
+                            <table class="table  table-bordered table-hover">
+                                 
+                                <tr>
+                                    <div class="form-group">
+                                        <label for="nombre">Nombres:</label>
+                                        <input type="text" class="form-control" id="nombre" readonly value="Juanito">
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="form-group">
+                                        <label for="apellidos">Nombres:</label>
+                                        <input type="text" class="form-control" id="apellidos" readonly value="Echeverry">
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="form-group">
+                                        <label for="documento">Documento de Identidad:</label>
+                                        <input type="text" class="form-control" id="documento" readonly value="1053">
+                                    </div>
+                                </tr>
+                                
+                                <tr>
+                                    <form action="reporteUsuarioEncontrado.html">
+                                        <td colspan="2">                                             
+                                            <button class="btn btn-block btn-lg">Buscar</button>                         
+                                        </td>
+                                    </form>
+                                    <form action="reportes.html">
+                                        <td colspan="2"> 
+                                            <button class="btn btn-block btn-lg">Regresar al Menú de Reportes</button>                         
+                                        </td>
+                                    </form>
+                                    
+                                </tr>
+                            </table>
+                        
+                        </div>
+                    
+                </div>
+            </div>          
+        </div>
+
+        <!-- PIE DE PÁGINA -->
+        
+                
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                    <p><center>Humberto Echeverry Arce - 82201619950</center></p>
+                    </div>
+                        
+                    
+                </div>
+            </div>          
+        </div>
+        </div>
+        
+        
+        <!--    Importamos el jquery y bootstrap  -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        
+    </body>
+
+</html>

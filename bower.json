@@ -1,0 +1,30 @@
+{
+  "name": "Killary",
+  "homepage": "https://github.com/hecheverry/killary",
+  "description": "Sistema de información del negocio de video juegos killary",
+  "main": "index.html",
+  "keywords": [
+    "video",
+    "juegos",
+    "consolas",
+    "killary",
+    "playStation",
+    "xbox",
+    "nintendo",
+    "wii"
+  ],
+  "authors": [
+    "Humberto Echeverry Arce - hecheverry@umanizales.edu.co"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

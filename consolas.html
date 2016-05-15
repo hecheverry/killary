@@ -1,36 +1,138 @@
 <html>
     <head><title>Consolas</title></head>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+    <!--<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" />
+    
     <meta charset="utf-8"/>
     
     <body>
-        <!-- HEADER -->
-        <header>
-            <h1>Killari</h1>
-        </header>
+        <!-- HEADER 
+        <div class="page-header">            
+            <center><h1>Killari <small> Todo en Video Juegos</small></h1></center>
+        </div> -->
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Killari</h1>      
+                <p>Todo en video Juegos.</p>
+            </div>
+        
+       
+              
         
         <!-- MENÚ -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="usuariosRegistro.html">Usuarios</a></li>
-                <li><a href="#consolas.html" class="active"  >Consolas</a></li>
-                <li><a href="videoJuegos.html">Video Juegos</a></li>
-                <li><a href="reportes.html">Reportes</a></li>
-                <li><a href="#Contactenos">Contáctenos</a></li>
-                <li style="float:right"><a href="#salir">Salir</a></li>
-            </ul>
-        </nav>
+        <ul class="nav nav-pills">
+            <li role="presentation" ><a href="index.html">Inicio</a></li>
+            <li role="presentation"><a href="usuariosRegistro.html">Registrar Usuarios</a></li>
+            <li role="presentation"class="active"><a href="#">Consolas</a></li>
+            <li role="presentation"><a href="videoJuegos.html">Video Juegos</a></li>
+            <li role="presentation"><a href="videoJuegosRegistro.html">Registrar Video Juegos</a></li>
+            <li role="presentation"><a href="reportes.html">Reportes</a></li>
+            <li role="presentation"><a href="#">Salir</a></li>            
+        </ul>
+        
+        <hr>
+        
 
         <!-- CONTENIDO -->
-        <section id="contenido">
-         <img src="img/construccion.jpg" width="100%" height="65%">
-        </section>
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Bienveidos al mejor lugar de video juegos</div>
+                        <div class="panel-body">
+                            
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td><img src="img/playstation.jpg" class="img-rounded img-thumbnail" alt="Assassins Creed"></td>
+                                    <td>
+                                        <h3>Play Station</h3>
+                                        <p>Contamos con las 3 últimas generaciones de esta gran consola de Sony con sus respectivos accesosrios y mejores video juegos.</p> 
+                                        <a href="#">Leer Mas...</a>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><img src="img/xbox.jpg" class="img-rounded img-thumbnail"></td>
+                                    <td>
+                                        <h3>Xbox</h3>
+                                        <p>Contamos con las 3 últimas generaciones de esta gran consola de Microsoft con sus respectivos accesosrios y mejores video juegos.</p>
+                                        <a href="#">Leer Mas...</a>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><img src="img/dreamcast.png" class="img-rounded img-thumbnail" width="100%"></td>
+                                    <td>
+                                        <h3>Dream Cast</h3>
+                                        <p>Esta consola de Sega aún conserva usuarios que gustan de sus video juegos</p> 
+                                        <a href="#">Leer Mas...</a>
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    </td>
+                                    
+                                </tr>
+                            </table>
+                        
+                        </div>
+                    
+                </div>
+            </div>          
+        </div>
 
         <!-- PIE DE PÁGINA -->
-        <footer>
-            <p>Humberto Echeverry Arce - 82201619950</p>
-        </footer>
+        
+                
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                    <p><center>Humberto Echeverry Arce - 82201619950</center></p>
+                    </div>
+                        
+                    
+                </div>
+            </div>          
+        </div>
+        </div>
+        
+        
+        <!--    Importamos el jquery y bootstrap  -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         
     </body>
 

@@ -1,36 +1,130 @@
 <html>
     <head><title>Inicio</title></head>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+    <!--<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" />
+    
     <meta charset="utf-8"/>
     
     <body>
-        <!-- HEADER -->
-        <header>
-            <h1>Killari</h1>
-        </header>
+        <!-- HEADER 
+        <div class="page-header">            
+            <center><h1>Killari <small> Todo en Video Juegos</small></h1></center>
+        </div> -->
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Killari</h1>      
+                <p>Todo en video Juegos.</p>
+            </div>
+        
+       
+              
         
         <!-- MENÚ -->
-        <nav>
-            <ul>
-                <li><a class="active"  href="#inicio">Inicio</a></li>
-                <li><a href="usuariosRegistro.html">Usuarios</a></li>
-                <li><a href="consolas.html">Consolas</a></li>
-                <li><a href="videoJuegos.html">Video Juegos</a></li>
-                <li><a href="reportes.html">Reportes</a></li>
-                <li><a href="#Contactenos">Contáctenos</a></li>
-                <li style="float:right"><a href="#salir">Salir</a></li>
-            </ul>
-        </nav>
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Inicio</a></li>
+            <li role="presentation"><a href="usuariosRegistro.html">Registrar Usuarios</a></li>
+            <li role="presentation"><a href="consolas.html">Consolas</a></li>
+            <li role="presentation"><a href="videoJuegos.html">Video Juegos</a></li>
+            <li role="presentation"><a href="videoJuegosRegistro.html">Registrar Video Juegos</a></li>
+            <li role="presentation"><a href="reportes.html">Reportes</a></li>
+            <li role="presentation"><a href="#">Salir</a></li>            
+        </ul>
+        
+        <hr>
+        
 
         <!-- CONTENIDO -->
-        <section id="contenido">
-         Contenido
-        </section>
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Bienveidos al mejor lugar de video juegos</div>
+                        <div class="panel-body">
+                            
+                            <table class="table table-bordered table-hover">
+                                <tr>
+                                    <td><img src="img/consolas.jpg" class="img-rounded img-thumbnail" alt="Assassins Creed"  width="100%"></td>
+                                    <td>
+                                        <h3>Tenemos todas las consolas de video juegos de última generación disponibles a la venta.</h3>
+                                        <p>Play Station 4 ,Xbox One, Nintendo U</p>
+                                        <a href="#">Leer Mas...</a>
+                                        
+                                        
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><img src="img/baner-Castlevania.jpg" class="img-rounded img-thumbnail"></td>
+                                    <td>
+                                        <h3>Recomendados</h3>
+                                        <p>Tomb Raider definite Edition, Metal Gear Solid V.</p>
+                                        <a href="#">Leer Mas...</a>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/baner-Fifa16.jpg" class="img-rounded img-thumbnail"></td>
+                                    <td>
+                                        <h3>Estrenos</h3>
+                                        <p>Uncharted 4, Fifa 16</p>
+                                        <a href="#">Leer Mas...</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/baner-Accesorios.jpg" class="img-rounded img-thumbnail"></td>
+                                    <td>
+                                        <h3>Accesorios</h3>
+                                        <p>Controles, Timones, Sensores, Membresias</p>
+                                        <a href="#">Leer Mas...</a>
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                       
+                                    </td>
+                                    
+                                </tr>
+                            </table>
+                        
+                        </div>
+                    
+                </div>
+            </div>          
+        </div>
 
         <!-- PIE DE PÁGINA -->
-        <footer>
-            <p>Humberto Echeverry Arce - 82201619950</p>
-        </footer>
+        
+                
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                    <p><center>Humberto Echeverry Arce - 82201619950</center></p>
+                    </div>
+                        
+                    
+                </div>
+            </div>          
+        </div>
+        </div>
+        
+        
+        <!--    Importamos el jquery y bootstrap  -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         
     </body>
 

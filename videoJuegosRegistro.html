@@ -1,0 +1,110 @@
+<html>
+    <head><title>Registrar Video Juego</title></head>
+    <!--<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" />
+    
+    <meta charset="utf-8"/>
+    
+    <body>
+        <!-- HEADER 
+        <div class="page-header">            
+            <center><h1>Killari <small> Todo en Video Juegos</small></h1></center>
+        </div> -->
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Killari</h1>      
+                <p>Todo en video Juegos.</p>
+            </div>
+        
+       
+              
+        
+        <!-- MENÚ -->
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="index.html">Inicio</a></li>
+            <li role="presentation" ><a href="usuariosRegistro.html">Registrar Usuarios</a></li>
+            <li role="presentation"><a href="consolas.html">Consolas</a></li>
+            <li role="presentation"><a href="videoJuegos.html">Video Juegos</a></li>
+            <li role="presentation" class="active"><a href="videoJuegosRegistro.html">Registrar Video Juegos</a></li>
+            <li role="presentation"><a href="reportes.html">Reportes</a></li>
+            <li role="presentation"><a href="#">Salir</a></li>            
+        </ul>
+        
+        <hr>
+        
+
+        <!-- CONTENIDO -->
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Registrar Usuario</div>
+                        <div class="panel-body">
+                            
+                            <form action="videoJuegoRegistroExito.html">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Introduce el nombre del video juego" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="consola">Consola:</label>
+                                    <select class="form-control" id="consola" required>
+                                        <option value="0">Selleciona Una Opción</option>
+                                        <option value="playStation4">Play Station 4</option>
+                                        <option value="playStation3">Play Station 3</option>
+                                        <option value="playStation2">Play Station 2</option>
+                                        <option value="xboxOne">Xbox One</option>
+                                        <option value="xbox360">Xbox 360</option>
+                                        <option value="xboxArcade">Xbox Arcade</option>
+                                        <option value="nintendoWiiU">Nintendo Wii U</option>
+                                        <option value="nintendoWii">Nintendo Wii</option>
+                                        <option value="DreamCast">Sega DreamCast</option>
+                                    </select>    
+                                </div>
+                                <div class="form-group">
+                                    <label for="valor">Valor:</label>
+                                    <input type="text" class="form-control" id="valor" placeholder="Introduce el valor del video juego" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="estado">Estado:</label>
+                                    <select class="form-control" id="estado" required>
+                                        <option value="0">Selleciona Una Opción</option>
+                                        <option value="nuevo">Nuevo</option>
+                                        <option value="usado">Usado</option>                                       
+                                    </select>    
+                                </div>
+                                
+                                <button class="btn btn-block btn-lg">Registrar</button>
+                                
+                            </form>
+                        
+                        </div>
+                    
+                </div>
+            </div>          
+        </div>
+
+        <!-- PIE DE PÁGINA -->
+        
+                
+        <div class="container-fluid">
+            <div class="col-md5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                    <p><center>Humberto Echeverry Arce - 82201619950</center></p>
+                    </div>
+                        
+                    
+                </div>
+            </div>          
+        </div>
+        </div>
+        
+        
+        <!--    Importamos el jquery y bootstrap  -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        
+    </body>
+
+</html>
